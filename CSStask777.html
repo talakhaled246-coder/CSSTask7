@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <style>
-        .navbar{
+        .navbar {
             display: flex;
             justify-content: space-between;
             background: black;
@@ -14,59 +15,92 @@
             padding: 10px;
         }
 
-        .cards{
+        .logo img {
+            width: 40px;
+        }
+
+        .links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .cards {
             display: flex;
-           flex-wrap: wrap;
+            flex-wrap: wrap;
 
 
         }
-        .card{
+
+        .card {
             width: 150px;
-            height: 100px;
+            height: 120px;
             background: lightgray;
             margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
 
         }
-        .center{
+
+        .center {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-.layout{
-    display: flex;
-    margin-top: 20px;
 
-}
-.sidebar{
-    width: 150px;
-    background: gray;
-}
-.main{
-    flex: 1;
-    background: lightpink;
-}
+        .layout {
+            display: flex;
+            margin-top: 20px;
 
+        }
+
+        .sidebar {
+            width: 150px;
+            background: gray;
+        }
+
+        .main {
+            flex: 1;
+            background: lightpink;
+        }
+        .card img{
+    width: 60px;
+    height: 60px;
+}
     </style>
 </head>
+
 <body>
-    <div class="navbar"><div>Logo</div>
-    <div>Links</div>
-</div>
+    <div class="navbar">
+        <div class="logo">
+            <img src="pp.jpeg">
+        </div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
 
-<div class="cards">
-    <div class="card"></div>
-     <div class="card"></div>
-      <div class="card"></div>
-       <div class="card"></div>
+    <div class="cards">
         <div class="card"></div>
-         <div class="card"></div>
-</div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
 
-<div class="card center">Text</div>
+    <div class="card "><img src="pp.jpeg">
+    <p>Text</p></div>
 
-<div class="layout">
-    <div class="sidebar">Sidebar</div>
-    <div class="main">Main</div>
-</div>
+    <div class="layout">
+        <div class="sidebar">Sidebar</div>
+        <div class="main">Main</div>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background: black;
+            color: white;
+            padding: 10px;
+        }
+
+        .cards{
+            display: flex;
+           flex-wrap: wrap;
+
+
+        }
+        .card{
+            width: 150px;
+            height: 100px;
+            background: lightgray;
+            margin: 10px;
+
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+.layout{
+    display: flex;
+    margin-top: 20px;
+
+}
+.sidebar{
+    width: 150px;
+    background: gray;
+}
+.main{
+    flex: 1;
+    background: lightpink;
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar"><div>Logo</div>
+    <div>Links</div>
+</div>
+
+<div class="cards">
+    <div class="card"></div>
+     <div class="card"></div>
+      <div class="card"></div>
+       <div class="card"></div>
+        <div class="card"></div>
+         <div class="card"></div>
+</div>
+
+<div class="card center">Text</div>
+
+<div class="layout">
+    <div class="sidebar">Sidebar</div>
+    <div class="main">Main</div>
+</div>
+</body>
+</html>
